@@ -1,6 +1,6 @@
 class teamviewer {
   package { "TeamViewer":
-    provider => 'appdmg',
+    provider => 'pkgdmg',
     source   => "http://download.teamviewer.com/download/TeamViewer.dmg",
   } 
 }
