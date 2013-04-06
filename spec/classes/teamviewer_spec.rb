@@ -5,8 +5,8 @@ require 'spec_helper'
 describe 'teamviewer' do
   it do
     should contain_package('TeamViewer').with({
-		:provider => 'pkgdmg',
-    	:source   => "http://download.teamviewer.com/download/TeamViewer.dmg",
+		  :provider => 'pkgdmg',
+    	:source   => 'http://download.teamviewer.com/download/TeamViewer.dmg',
     })
   end
 end

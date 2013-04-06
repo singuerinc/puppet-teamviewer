@@ -1,6 +1,7 @@
+# Teamviewer puppet.
 class teamviewer {
-  package { "TeamViewer":
+  package { 'TeamViewer':
     provider => 'pkgdmg',
-    source   => "http://download.teamviewer.com/download/TeamViewer.dmg",
-  } 
+    source   => 'http://download.teamviewer.com/download/TeamViewer.dmg',
+  }
 }
